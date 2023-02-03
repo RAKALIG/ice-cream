@@ -49,7 +49,7 @@ img {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -83,10 +83,6 @@ img {
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-}
-
-.nav__link:first-child {
-    /*color: #D23166;*/
 }
 
 .btn {
@@ -147,13 +143,22 @@ img {
     font-family: 'Hind Madurai';
 }
 
-.btn {}
+
+.around {
+    width: 336px;
+    height: 336px;
+    background-color: rgba(242, 206, 218, 0.611);
+    border-radius: 50%;
+    position: absolute;
+    left: 1113.8px;
+    top: 400px;
+}
 
 .hero__img-cream {
     position: absolute;
     width: 597px;
     height: 597px;
-    left: 889px;
+    left: 990px;
     top: 126px;
 }
 
@@ -161,7 +166,56 @@ img {
     position: absolute;
     width: 851.86px;
     height: 548.1px;
-    left: 785.8px;
+    left: 850.8px;
     top: 251px;
     transform: rotate(4.79deg);
+}
+
+.offers {
+    width: 1117px;
+    height: 430px;
+    margin: auto;
+}
+
+
+
+.offers__list {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.offers__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    left: 252px;
+    top: 962px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    margin-right: 100px;
+}
+
+.offers__item:last-child {
+    margin-right: 0;
+}
+
+.offers__img-wrap {
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.offers__dish-title {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.offers__dish-desc {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
 }
