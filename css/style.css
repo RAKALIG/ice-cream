@@ -173,7 +173,7 @@ img {
 
 .offers {
     width: 1117px;
-    height: 430px;
+    height: 401px;
     margin: auto;
 }
 
@@ -219,3 +219,125 @@ img {
     margin-top: 0;
     text-align: center;
 }
+
+.ice-cream2 {
+    height: 545px;
+    background-color: rgb(248, 237, 240);
+}
+
+.container {}
+
+.ice__info {
+    display: flex;
+    justify-content: center;
+}
+
+.ice_text {
+    width: 442px;
+    height: 256.71px;
+    left: 252px;
+    top: 1403.59px;
+    padding-top: 141px;
+    margin-right: 150px;
+}
+
+.ice_head-line {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+
+.ice_desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn {}
+
+
+.ice_img {
+
+    width: 655px;
+    height: 656.8px;
+}
+
+.ice_img-cream {}
+
+.market__ice-cream {
+    height: 2347px;
+}
+
+.container {}
+
+.market__header {
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+}
+
+.market {}
+
+.nav {}
+
+.nav__list {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.market__list {
+    margin-top: 84px;
+}
+
+.nav__item {}
+
+.nav__link {}
+
+.market__info {}
+
+.market__flex {}
+
+.market__info-1 {
+    display: flex;
+}
+
+.market__headline {}
+
+.market__desc {}
+
+.market__price {}
+
+.market__price-delete {}
+
+.btn {}
+
+.market__img {}
+
+.market__ice-img {}
+
+.market__reviews {}
+
+.market__avatar {}
+
+.market__bracket {}
+
+.market__nickname {}
+
+.market__job-title {}
+
+.market__bracket2 {}
