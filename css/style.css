@@ -248,6 +248,7 @@ img {
     font-size: 44.2px;
     line-height: 49px;
     color: #150101;
+    margin-bottom: 10px;
 }
 
 .ice_desc {
@@ -256,6 +257,7 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 10px;
 }
 
 .btn {}
@@ -310,19 +312,66 @@ img {
 
 .market__info {}
 
-.market__flex {}
-
 .market__info-1 {
     display: flex;
 }
 
-.market__headline {}
+.market__flex {
+    display: flex;
+    justify-content: center;
 
-.market__desc {}
+}
 
-.market__price {}
+.mrk {
+    margin-left: 102px;
+    margin-right: 102px;
+}
 
-.market__price-delete {}
+.market__headline {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+
+}
+
+.market__desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mrk-price {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.market__price {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.market__price-delete {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    margin-left: 10px;
+    margin-top: 5px;
+}
 
 .btn {}
 
@@ -330,14 +379,81 @@ img {
 
 .market__ice-img {}
 
-.market__reviews {}
+.market__info-12 {
+    margin-top: 242px;
+}
 
-.market__avatar {}
+.market__reviews {
+    display: flex;
+}
 
-.market__bracket {}
+.mrk-job {
+    display: flex;
+    margin-bottom: 47px;
+}
 
-.market__nickname {}
+.market__avatar {
+    margin-right: 20px;
+}
 
-.market__job-title {}
+.market__nickname {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 7px;
+}
 
-.market__bracket2 {}
+.market__job-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.mrk__text {
+    display: flex;
+}
+
+.market__bracket {
+    margin-right: 6px;
+}
+
+.market__desc {}
+
+.market__bracket2 {
+    margin-top: 57px;
+}
+
+.mrk-people {
+    display: flex;
+}
+
+.mrk-btn {}
+
+.people {}
+
+.mrk-man {
+    width: 35px;
+    height: 35px;
+    margin-right: 30px;
+}
+
+.mrk-woman {
+    width: 57.81px;
+    height: 57.81px;
+    margin-top: 30px;
+    border: 1px solid #D64374;
+}
+
+.mrk-woman {
+    width: 35px;
+    height: 35px;
+}
+
+.ice-img-three {}
