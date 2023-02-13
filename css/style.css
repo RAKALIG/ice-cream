@@ -432,16 +432,27 @@ img {
 
 .mrk-people {
     display: flex;
+    margin-top: 30px;
 }
 
-.mrk-btn {}
+.mrk-btn:first-child {
+    opacity: 0.5;
+}
 
-.people {}
+.mrk-btn {
+    margin-right: 23px;
+    margin: 30px;
+}
+
+.people {
+    display: flex;
+}
 
 .mrk-man {
     width: 35px;
     height: 35px;
     margin-right: 30px;
+    border-radius: 50%;
 }
 
 .mrk-woman {
@@ -449,11 +460,88 @@ img {
     height: 57.81px;
     margin-top: 30px;
     border: 1px solid #D64374;
+    border-radius: 50%;
+
 }
 
-.mrk-woman {
+.mrk-woman2 {
     width: 35px;
     height: 35px;
+    margin-left: 30px;
+    border-radius: 50%;
 }
 
-.ice-img-three {}
+.ice-img-three {
+    margin-left: 300px;
+}
+
+.application {
+    height: 678px;
+    background: #F8EDF0;
+    display: flex;
+}
+
+.application__img {
+    width: 305px;
+    height: 627px;
+    margin-left: 220px;
+    margin-top: 59px;
+}
+
+.application__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-left: 135px;
+    padding-top: 98px;
+}
+
+.application__header {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin-top: 35px;
+}
+
+.application__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+    margin-top: 32px;
+}
+
+.application__info {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 27px;
+}
+
+.application__info-selest {
+    margin-top: 15px;
+    display: flex;
+}
+
+.info__border {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 3px;
+
+}
+
+.info__img {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.info__text {
+    padding-left: 20px;
+}
+
+.application__market {
+    padding-top: 30px;
+    display: flex;
+}
