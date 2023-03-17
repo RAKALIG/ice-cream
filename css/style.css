@@ -172,16 +172,14 @@ img {
 }
 
 .offers {
-    width: 1117px;
-    height: 401px;
-    margin: auto;
+    padding: 100px 0px;
 }
 
 
 
 .offers__list {
     display: flex;
-    margin-top: 100px;
+    justify-content: space-between;
 }
 
 
@@ -189,13 +187,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 250px;
-    height: 200px;
-    left: 252px;
-    top: 962px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
     border-radius: 7px;
-    margin-right: 100px;
+    margin-right: 20px;
+    padding: 33px 26px 28px;
 }
 
 .offers__item:last-child {
@@ -221,7 +216,6 @@ img {
 }
 
 .ice-cream2 {
-    height: 545px;
     background-color: rgb(248, 237, 240);
 }
 
@@ -230,16 +224,10 @@ img {
 .ice__info {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.ice_text {
-    width: 442px;
-    height: 256.71px;
-    left: 252px;
-    top: 1403.59px;
-    padding-top: 141px;
-    margin-right: 150px;
-}
+.ice_text {}
 
 .ice_head-line {
     font-family: 'Hind Madurai';
@@ -264,12 +252,14 @@ img {
 
 
 .ice_img {
-
-    width: 655px;
-    height: 656.8px;
+    width: 50%;
 }
 
-.ice_img-cream {}
+.ice_img-cream {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 .market__ice-cream {
     height: 2347px;
