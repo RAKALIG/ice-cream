@@ -57,7 +57,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 207px;
+    margin-bottom: 37px;
 }
 
 .logo {
@@ -96,7 +96,9 @@ img {
     padding: 15px 36px;
 }
 
-.hero__content {}
+.hero__content {
+    display: flex;
+}
 
 .hero__info {}
 
@@ -143,6 +145,9 @@ img {
     font-family: 'Hind Madurai';
 }
 
+.hero_img-content {
+    position: relative;
+}
 
 .around {
     width: 336px;
@@ -150,25 +155,24 @@ img {
     background-color: rgba(242, 206, 218, 0.611);
     border-radius: 50%;
     position: absolute;
-    left: 1113.8px;
-    top: 400px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .hero__img-cream {
-    position: absolute;
     width: 597px;
     height: 597px;
-    left: 990px;
-    top: 126px;
+    position: relative;
 }
 
 .hero__img-milk {
-    position: absolute;
     width: 851.86px;
     height: 548.1px;
-    left: 850.8px;
-    top: 251px;
     transform: rotate(4.79deg);
+    position: absolute;
+    right: 0;
+    bottom: -108px;
 }
 
 .offers {
@@ -473,13 +477,14 @@ img {
     height: 678px;
     background: #F8EDF0;
     display: flex;
+    justify-content: center;
+
 }
 
 .application__img {
     width: 305px;
     height: 627px;
-    margin-left: 220px;
-    margin-top: 59px;
+    margin-top: 80px;
 }
 
 .application__text {
@@ -540,6 +545,12 @@ img {
     display: flex;
 }
 
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .registration__header {
     width: 522px;
     height: 123px;
@@ -548,7 +559,6 @@ img {
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    margin: auto;
     margin-top: 200px;
     text-align: center;
 }
@@ -564,8 +574,6 @@ img {
     display: flex;
     width: 637px;
     height: 74px;
-    margin-left: 570px;
-
 }
 
 .registration__field {
